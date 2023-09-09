@@ -1,34 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import Button from './componentes/Button'
+import Card from './componentes/Card'
+import ResponsiveButton from './componentes/ResponsiveButton'
 
 function App() {
-  const [count, setCount] = useState(0)
 
+  //* El tamaño margen del container tmb tiene breakpoints preconfigurados!
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className='container mx-auto'>
+      <h1 className="text-center text-3xl font-bold underline m-4 shadow-md">
+        componentes creados con Tailwindcss
+      </h1>
+      <p className='bg-pink-500 text-cyan-300 text-right uppercase'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, dolorum? Ex, odit. Assumenda repellendus commodi inventore laudantium aperiam eum in nesciunt fugit earum delectus rem, odit, eveniet iusto quos ratione.</p>
+      <br />
+      <Button />
+      <ResponsiveButton />
+      <Card />
+    </div>
   )
 }
 
