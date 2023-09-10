@@ -2,6 +2,7 @@
 import './App.css'
 import Button from './componentes/Button'
 import Card from './componentes/Card'
+import Grid from './componentes/Grid'
 import ResponsiveButton from './componentes/ResponsiveButton'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Button />
       <ResponsiveButton />
       <Card />
+      <Grid />
     </div>
   )
 }
