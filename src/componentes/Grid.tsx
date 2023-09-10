@@ -43,14 +43,14 @@ export default function Grid() {
             </div>
             <h2 className="text-bold text-center text-4xl my-4">Identicas formas de hacer lo mismo</h2>
             <div className="grid grid-cols-12 gap-x-1">
-                <div className="bg-orange-500 col-span-4">D</div>
-                <div className="bg-orange-500 col-span-4">D</div>
-                <div className="bg-orange-500 col-span-4">D</div>
+                <div className="bg-orange-500 col-span-4">grid de doce columnas, con un col-span-4 por cada div</div>
+                <div className="bg-orange-500 col-span-4">grid de doce columnas, con un col-span-4 por cada div</div>
+                <div className="bg-orange-500 col-span-4">grid de doce columnas, con un col-span-4 por cada div</div>
             </div>
             <div className="grid grid-cols-3 gap-x-1">
-                <div className="bg-orange-500">D</div>
-                <div className="bg-orange-500">D</div>
-                <div className="bg-orange-500">D</div>
+                <div className="bg-miColor">grid de tres columnas, con tres div</div>
+                <div className="bg-miColor">grid de tres columnas, con tres div</div>
+                <div className="bg-miColor">grid de tres columnas, con tres div</div>
             </div>
             <hr />
             <h2 className="text-bold text-center text-4xl my-4">Col Start | Col End - Si hay (n) columnas tenemos (n+1) posiciones para ubicarlas</h2>
@@ -67,7 +67,7 @@ export default function Grid() {
                 <div className="bg-purple-500">col 4</div>
             </div>
             <h2 className="text-bold text-center text-4xl my-4">Grid template row</h2>
-            <div className="grid grid-rows-4 gap-y-2">
+            <div className="grid grid-rows-4 gap-y-2 text-info-800">
                 <div className="bg-emerald-600 row-span-2">A</div>
                 <div className="bg-emerald-600">B</div>
                 <div className="bg-emerald-600">C</div>
