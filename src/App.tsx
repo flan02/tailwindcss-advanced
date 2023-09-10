@@ -4,6 +4,7 @@ import Button from './componentes/Button'
 import Card from './componentes/Card'
 import Flexbox from './componentes/Flexbox'
 import Grid from './componentes/Grid'
+
 import ResponsiveButton from './componentes/ResponsiveButton'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Card />
       <Grid />
       <Flexbox />
+
     </div>
   )
 }

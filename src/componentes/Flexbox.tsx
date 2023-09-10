@@ -45,6 +45,7 @@ function Flexbox() {
                 <div className="bg-blue-500 p-4 m-2">item 2</div>
                 <div className="bg-blue-500 p-4 m-2">item 3</div>
             </div>
+            <br /><br />
         </>
 
     )
